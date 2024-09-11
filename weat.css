@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(weather\ 2.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.main {
+    width: 400px;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+}
+
+.search input {
+
+    outline: none;
+}
